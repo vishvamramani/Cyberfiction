@@ -1,3 +1,7 @@
+window.addEventListener("load", function() {
+  document.getElementById("preloader").style.display = "none";
+});
+
 function locomotive() {
   gsap.registerPlugin(ScrollTrigger);
 
